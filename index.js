@@ -57,6 +57,7 @@ horseman
       value = value.replace(/\./g, ',');
       notifier.notify(successMessage(value));
     } else {
+      value = value.replace(/\./g, ',');
       notifier.notify(failingMessage(value));
     }
   })
