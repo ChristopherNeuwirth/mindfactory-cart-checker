@@ -5,6 +5,7 @@ This little watcher can be run as a deamon of node forever to notify you via not
 
 ## Requirements
 
+- NodeJS must be installed an your maschine (https://nodejs.org)
 - Setup a Mindfactory account
 - Save a shopping cart with stuff you want
 
