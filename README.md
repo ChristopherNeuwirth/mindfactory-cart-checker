@@ -1,4 +1,7 @@
 # Mindfactory Horseman
+This little watcher can be run as a deamon of node forever to notify you via notification center if a mindfactory cart value has fallen beneath a defined limit.
+
+![Example](https://github.com/ChristopherNeuwirth/mindfactory-cart-checker/blob/master/example.notification.png)
 
 ## Requirements
 
