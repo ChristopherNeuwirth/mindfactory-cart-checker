@@ -1,6 +1,6 @@
 # Changelog
 
-## Upcomming
+## Upcoming
 - Errorhandling
 - Make configurable via script
 - Find better way to identify page objects
