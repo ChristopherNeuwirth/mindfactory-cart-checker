@@ -1,0 +1,24 @@
+{
+  "name": "mindfactory-horseman",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Christopher Neuwirth",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "node-horseman": "^3.2.0",
+    "node-notifier": "^4.6.1",
+    "open": "0.0.5",
+    "path": "^0.12.7",
+    "phantomjs": "^2.1.7"
+  }
+}
