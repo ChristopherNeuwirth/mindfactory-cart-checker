@@ -14,6 +14,10 @@ let acceptedPrice = process.env.PRICE;
 let baseUrl = 'https://www.mindfactory.de/login.php';
 let shoppingCartUrl = 'https://www.mindfactory.de/shopping_cart.php';
 
+let textselector = `#cart_quantity > div.backgrey.pal10 >
+                    div.floatLeft.width760.colorblue.pat10.backgrey > div.floatRight.width235 >
+                    div.floatRight > div:nth-child(1) > span`;
+
 let successMessage = (value) => {
   return {
     title: 'Mindfactory Warenwert gesunken!',
@@ -45,7 +49,7 @@ horseman
   .waitForNextPage()
   .open(shoppingCartUrl)
   .waitForNextPage()
-  .text('#cart_quantity > div.backgrey.pal10 > div.floatLeft.width760.colorblue.pat10.backgrey > div.floatRight.width235 > div.floatRight > div:nth-child(1) > span')
+  .text(textselector)
   .then((text) => {
     let value = text.substring(2);
     value = value.replace(/,/g, '.');
