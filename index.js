@@ -24,7 +24,7 @@ let successMessage = (value) => {
     subtitle: '🚨 🤘😄🤘 🚨',
     message: `Gesamtkosten jetzt ${value} Euro`,
     icon: path.join('./', 'icon.png'),
-    wait: 'true',
+    // wait: 'true',
     sound: 'true'
   }
 };
@@ -33,7 +33,7 @@ let failingMessage = (value) => {
     title: 'Mindfactory Check',
     subtitle: '😡',
     icon: path.join('./', 'icon.png'),
-    wait: 'true',
+    // wait: 'true',
     message: `Gesamtkosten derzeit ${value} Euro`
   }
 };
